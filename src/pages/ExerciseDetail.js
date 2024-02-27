@@ -7,6 +7,7 @@ import Detail from "../components/Detail";
 import ExerciseVideos from "../components/ExerciseVideos";
 import SimilarExercises from "../components/SimilarExercises";
 
+// Fetching exercise data from the API and rendering the exercise detail page
 const ExerciseDetail = () => {
   const [exerciseDetail, setExerciseDetail] = useState({});
   const [youtubeData, setYoutubeData] = useState({});
