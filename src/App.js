@@ -9,6 +9,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Register from "./pages/Register";
 
+// Renders the application and routes
 const App = () => {
   let loggedIn = true;
 
