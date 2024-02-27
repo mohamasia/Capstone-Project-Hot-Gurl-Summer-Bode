@@ -7,6 +7,7 @@ import { Typography, Box, Button, Stack } from "@mui/material";
 import RightArrowIcon from "../assets/icons/right-arrow.png";
 import LeftArrowIcon from "../assets/icons/left-arrow.png";
 
+// renders a carousel of cards on a web page.
 const Carousel = ({ data, bodyPart, setBodyPart }) => {
   const [clicked, setClicked] = useState(false);
   const [displayData, setDisplayData] = useState([]);
