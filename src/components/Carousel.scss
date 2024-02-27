@@ -121,7 +121,7 @@ body {
         }
     }
 
-    /* Element: .card__author */
+    /* Elements: .card__author */
     &__author {
         position: relative;
         display: grid;
@@ -129,7 +129,7 @@ body {
         align-items: center;
         margin: 3rem 0 0;
 
-        /* Element: .card__author__avatar */
+        /* Elements: .card__author__avatar */
         &__avatar img {
             display: block;
             width: 40px;
@@ -139,7 +139,7 @@ body {
             margin: 16px 10px;
         }
 
-        /* Element: .card__author__half-circle */
+        /* Elements: .card__author__half-circle */
         &__half-circle {
             position: absolute;
             bottom: 0;
