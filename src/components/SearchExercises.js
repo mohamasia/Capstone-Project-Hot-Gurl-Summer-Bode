@@ -5,6 +5,7 @@ import Carousel from "./Carousel";
 import { exerciseOptions, fetchData } from "../utils/fetchData";
 import { ContactSupportOutlined } from "@mui/icons-material";
 
+// store an array of body parts & Makes api request
 const SearchExercises = ({
   setExercises,
   bodyPart,
@@ -53,6 +54,7 @@ const SearchExercises = ({
     }
   };
 
+  // renders a user interface for searching exercises and selecting body parts for a workout plan.
   return (
     <Stack
       alignItems="center"
