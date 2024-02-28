@@ -9,3 +9,40 @@ body {
   font-family: 'DM Mono', monospace;
 }
 
+.logoContainer {
+  position: relative;
+  display: inline-block;
+
+  .logo-img {
+    width: $logo-size;  // Using the variable
+    height: auto;       // To maintain aspect ratio
+  }
+
+  .logoText {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    white-space: nowrap;
+  }
+}
+
+.exercise-name {
+  font-family: 'DM Mono', monospace;
+}
+
+.button1 {
+  background-color: rgb(196, 174, 173);
+}
+
+.button2 {
+  background-color: rgb(215, 131, 127);
+}
+
+body {
+  font-family: 'Josefin Sans';
+  background-color: #FFFAFB;
+}
